@@ -1,0 +1,46 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Just Java</string>
+
+    <!-- hint for the name input from the user -->
+    <string name="hint_name">Name</string>
+
+    <!-- Choosing toppings header. [CHAR LIMIT=NONE]-->
+    <string name="toppings">Toppings</string>
+    <!-- Lists of toppings. [CHAR LIMIT=NONE]-->
+    <string name="whipped_cream">Whipped cream</string>
+    <string name="chocolate">Chocolate</string>
+
+    <!-- Choosing quantity header. [CHAR LIMIT=NONE]-->
+    <string name="quantity">Quantity</string>
+
+    <!-- Button for decreasing [NO NEED TO TRANSLATE]-->
+    <string name="symbol_minus">-</string>
+    <!-- Default number for quantitiy.(Number one) [NO NEED TO TRANSLATE]-->
+    <string name="number_one">1</string>
+    <!-- Button for increasing [NO NEED TO TRANSLATE]-->
+    <string name="symbol_plus">+</string>
+
+    <!-- Button for order [CHAR LIMIT=20]-->
+    <string name="button_order">Order</string>
+    <!-- Toast for preventing increment [CHAR LIMIT=NONE]-->
+    <string name="toast_increment_prevent">You can not have more than 100 coffees</string>
+    <!-- Toast for preventing decrement [CHAR LIMIT=NONE]-->
+    <string name="toast_decrement_prevent">You can not have less than 1 coffee</string>
+
+    <!-- Subject for the order summary. -->
+    <string name="order_subject">JustJava order for </string>
+
+    <!--
+    Name for the order summary. It will be shown in the format of "Name: Amy"
+    where Amy is the user's name. [CHAR LIMIT=NONE]
+    -->
+    <string name="order_summary_name">Name: <xliff:g id="name" example="Amy">%s</xliff:g></string>
+    <!-- Messages for the order summary. [CHAR LIMIT=NONE]-->
+    <string name="hasWhippedCream">Add whipped cream? </string>
+    <string name="hasChocolate">Add chocolate? </string>
+    <string name="quantity_summary">"quantity: "</string>
+    <string name="total">Total: $</string>
+    <!-- Thank you message for the order summmary.[CHAR LIMIT=NONE] -->
+    <string name="thank_you">Thank you!</string>
+
+</resources>

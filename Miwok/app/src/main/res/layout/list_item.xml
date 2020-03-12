@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    xmlns is short for xml namespace.
+    in tools namespace, we can set texts.
+    Go 'tools.android.com/tech-docs/tools-attributes' and find attributes in tools namespace.
+    Or 'https://developer.android.com/studio/write/tool-attributes'
+    'tools:text' is one of 'Design time attributes'  which are used when the layout is rendered in the tool,
+    but have no impact on the runtime.
+    -->
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <TextView
+        android:id="@+id/miwok_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="lutti"/>
+
+    <TextView
+        android:id="@+id/default_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="one"/>
+
+</LinearLayout>
