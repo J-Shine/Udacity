@@ -2,6 +2,7 @@ package com.example.android.miwok;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.LinearLayout;
 import android.widget.ListView;
 
 import java.util.ArrayList;
@@ -30,7 +31,7 @@ public class NumbersActivity extends AppCompatActivity {
 
         // Create a Word Adapter (custom adapter), using constructor.
         WordAdapter itemsAdapter =
-                new WordAdapter(this, words);
+                new WordAdapter(this, words, R.color.category_numbers);
 
         // Find the ListView object in the view hierarchy of the Activity.
         // There should be a ListView with the view ID called list, which is declared in the
